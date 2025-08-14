@@ -1,0 +1,58 @@
+/* Section background */
+.industries {
+  background-color: white; 
+  padding: 60px 0;
+}
+
+/* Text content block */
+.defense {
+  background-color: rgb(90, 161, 212);
+  color: white;
+  padding: 40px;
+  max-width: 600px;
+  border-radius: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.defense:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Image container block */
+.defensei {
+  padding: 40px;
+  max-width: 600px;
+  border-radius: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.defensei:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+/* Image styling */
+.defenseimg {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  border-radius: 16px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .defense,
+  .defensei {
+    padding: 25px;
+  }
+
+  .defenseimg {
+    max-height: 250px;
+    border-radius: 12px;
+  }
+}

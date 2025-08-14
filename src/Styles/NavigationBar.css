@@ -1,0 +1,39 @@
+/* Navigation bar background and position */
+.navbar {
+  background-color: rgb(87, 138, 185);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+.bi-r-circle{
+  font-size: 14px;
+}
+
+/* Brand name styling */
+.navbar .brand {
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Default nav-link style */
+.navbar .nav-link {
+  color: aliceblue !important;
+  font-weight: 700;
+  margin-left: 15px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for nav links */
+.navbar .nav-link:hover {
+  color: #93d0e4 !important;
+  cursor: pointer;
+}
+
+/* Active link styling */
+.navbar .nav-link.active-link {
+  font-weight: 900;
+  border-bottom: 4px solid #93d0e4;
+}

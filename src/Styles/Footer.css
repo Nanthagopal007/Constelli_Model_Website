@@ -1,0 +1,55 @@
+.footer {
+  background-color: rgb(87, 138, 185);
+  color: white;
+  font-size: 14px;
+}
+
+.footer-logo {
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 60px;
+  padding-left: 50px;
+}
+
+.footer-logo:hover {
+  color: #ffc107;
+}
+
+.footer-title {
+  font-weight: bold;
+  color: #ffc107;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-list {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.7;
+  color:white;
+}
+
+.footer-input {
+  padding: 6px 10px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  outline: none;
+  width: 100%;
+}
+
+.footer-input:focus {
+  border-color: #ffc107;
+  box-shadow: 0 0 0 0.1rem rgba(255, 193, 7, 0.25);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+  }
+
+  .footer-input {
+    flex: 1 1 auto;
+  }
+}

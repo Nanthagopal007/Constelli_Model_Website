@@ -1,0 +1,72 @@
+/* General Section Styling */
+.founder-section {
+  background-color: #fef6e4;
+  padding: 60px 20px;
+}
+
+/* Section Heading */
+.founder-section h3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.founder-section .highlight  {
+  color: #1e40af;
+}
+
+
+/* Founder Image */
+.founder-img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  display: block;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.founder-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Founder Info Card */
+.founder-card {
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.founder-card h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #1e40af;
+}
+
+.founder-card p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.founder-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+  .founder-img {
+    max-width: 200px;
+  }
+
+  .founder-card {
+    text-align: center;
+  }
+}

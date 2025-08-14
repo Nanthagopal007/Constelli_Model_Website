@@ -1,0 +1,148 @@
+.contact-container {
+  background-color: #f4f7fc;
+  padding: 60px 20px;
+}
+
+.contact-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+
+.contact-info,
+.contact-form {
+  background-color: #ffffff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.contact-info h2{
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #1e3a8a;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.icon-circle {
+  background-color: #1e40af;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 50%;
+  min-width: 40px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Social Media Icons */
+.social-icons {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+/* Individual Platform Colors */
+.instagram {
+  background-color: #e1306c;
+}
+
+.twitter {
+  background-color: #1da1f2;
+}
+
+.youtube {
+  background-color: #ff0000;
+}
+
+.linkedin {
+  background-color: #0077b5;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Form Section */
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form h3 ,label{
+  font-weight: 500;
+  color: #1e3a8a;
+  margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  background-color: #fdfdfd;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #1e40af;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.15);
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #1e40af;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #163593;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
+  }
+}

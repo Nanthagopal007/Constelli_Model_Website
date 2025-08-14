@@ -1,0 +1,51 @@
+/* Section Styling */
+.rar-section {
+  background-color: white;
+  padding: 60px 20px;
+  overflow-x: hidden;
+}
+
+/* Headings */
+.rar-section h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1e3a8a;
+}
+
+/* Text */
+.rar-section p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+/* Image */
+.rar-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.rar-image:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .rar-section {
+    padding: 40px 15px;
+  }
+
+  .rar-section .row {
+    flex-direction: column;
+  }
+
+  .rar-section .col-md-6 {
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,20 @@
+.about-container {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-image {
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.about-title {
+  font-weight: 700;
+  color: #003366;
+}
+
+.about-description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 1rem;
+}
